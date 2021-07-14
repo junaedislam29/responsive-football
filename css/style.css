@@ -112,6 +112,7 @@ body {
   margin-bottom: 63px;
 }
 /* media queries */
+/* mobile-device */
 @media only screen and (max-width: 488px) {
 main{
   width: 360px;
@@ -124,24 +125,33 @@ main{
 }
 .heading{
   font-size: 36px;
+  width: 278px;
+  height: 138px;
+  margin: 0px 66px 50px 16px;
 }
-    
+.watch-buttton{
+  width: 168px;
+  height: 44px;
+}    
 .banner-title{
-  margin: 112px 66px 50px 16px;
-  }
+  width: 278px;
+  height: 138px;
+}
 .banner-image img{
-  margin: 0 16px 62px 16px;
+  margin: 50px 16px 62px 16px;
   width: 329px;
   height: 259.17px;
-  }
-
+}
 .container {
   width: 330px;
-  }
+}
 .players {
   grid-template-columns: repeat(1, 1fr);
-  }
+  width: 330px;
+  margin: 47px 15px 15px 15px;
+}
 .player {
   flex-direction: column;
-  }
-  
+  width: 330px;
+  height: 474px;
+}
